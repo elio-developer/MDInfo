@@ -1,0 +1,6 @@
+framework module Pods_MDInfo_Tests {
+  umbrella header "Pods-MDInfo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

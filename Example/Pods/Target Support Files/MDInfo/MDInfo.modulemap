@@ -1,0 +1,6 @@
+framework module MDInfo {
+  umbrella header "MDInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}
