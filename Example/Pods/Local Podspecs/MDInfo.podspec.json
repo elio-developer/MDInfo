@@ -1,15 +1,14 @@
 {
   "name": "MDInfo",
   "version": "0.1.0",
-  "summary": "A short description of MDInfo.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Deal with the localized name, short name and initials of days and months easily.",
   "homepage": "https://github.com/elio-developer/MDInfo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "elio-developer": "eliezer.developer@gmail.com"
+    "Eliezer Ferrá": "eliezer.developer@gmail.com"
   },
   "source": {
     "git": "https://github.com/elio-developer/MDInfo.git",

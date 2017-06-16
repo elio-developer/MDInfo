@@ -20,9 +20,61 @@ it, simply add the following line to your Podfile:
 pod "MDInfo"
 ```
 
+## Usage
+
+### Days With Current Locale
+
+This variables will return the information of the day for the current locale of the device
+
+```swift
+import MDInfo
+
+Days.sunday.initial
+Days.sunday.name
+Days.sunday.shortName
+```
+
+### Days With Specified Locale
+
+This functions will return the information of the day for the specified locale.
+
+```swift
+import MDInfo
+
+let locale = Locale(identifier: "es")
+Days.sunday.initial(locale)
+Days.sunday.name(locale)
+Days.sunday.shortName(locale)
+```
+
+### Months With Current Locale
+
+This variables will return the information of the day for the current locale of the device
+
+```swift
+import MDInfo
+
+Months.january.initial
+Months.january.name
+Months.january.shortName
+```
+
+### Months With Specified Locale
+
+This functions will return the information of the day for the specified locale.
+
+```swift
+import MDInfo
+
+let locale = Locale(identifier: "es")
+Months.january.initial(locale)
+Months.january.name(locale)
+Months.january.shortName(locale)
+```
+
 ## Author
 
-elio-developer, eliezer.developer@gmail.com
+Eliezer Ferrá, eliezer.developer@gmail.com
 
 ## License
 

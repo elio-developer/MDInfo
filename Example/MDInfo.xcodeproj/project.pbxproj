@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		9AE55F211EF41B7F0007B2A2 /* MDInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE55F201EF41B7F0007B2A2 /* MDInfo.framework */; };
 		D1D926FEDEEF11EFD6AC4CDC /* Pods_MDInfo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC5CDC14036D4877A9B202 /* Pods_MDInfo_Example.framework */; };
 		E9C1BF1BFFD8F1E7069715AF /* Pods_MDInfo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BC0F46E9EBF7AC4379530E /* Pods_MDInfo_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -40,12 +41,13 @@
 		607FACE51AFB9204008FA782 /* MDInfo_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDInfo_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		78A06CE3C11A2C45976D527C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8433C21AB2AA9F6141778E29 /* MDInfo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MDInfo.podspec; path = ../MDInfo.podspec; sourceTree = "<group>"; };
+		78A06CE3C11A2C45976D527C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8433C21AB2AA9F6141778E29 /* MDInfo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MDInfo.podspec; path = ../MDInfo.podspec; sourceTree = "<group>"; };
+		9AE55F201EF41B7F0007B2A2 /* MDInfo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MDInfo.framework; path = "../../../../../../../Library/Developer/Xcode/DerivedData/MDInfo-cjhphnwwmfkbcxeqyjpjimqcgrlf/Build/Products/Debug-iphonesimulator/MDInfo/MDInfo.framework"; sourceTree = "<group>"; };
 		AAFC5CDC14036D4877A9B202 /* Pods_MDInfo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDInfo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95F68181FA262510C55D657 /* Pods-MDInfo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDInfo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDInfo_Tests/Pods-MDInfo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D830A04FD4768D3A6D86879D /* Pods-MDInfo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDInfo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDInfo_Example/Pods-MDInfo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DFE91EC174CFC8C799808ED7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DFE91EC174CFC8C799808ED7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F4F3412F853909A9F5914AF2 /* Pods-MDInfo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDInfo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDInfo_Tests/Pods-MDInfo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AE55F211EF41B7F0007B2A2 /* MDInfo.framework in Frameworks */,
 				D1D926FEDEEF11EFD6AC4CDC /* Pods_MDInfo_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +75,7 @@
 		33EC9D49E42F79BD23A6BD64 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9AE55F201EF41B7F0007B2A2 /* MDInfo.framework */,
 				AAFC5CDC14036D4877A9B202 /* Pods_MDInfo_Example.framework */,
 				16BC0F46E9EBF7AC4379530E /* Pods_MDInfo_Tests.framework */,
 			);

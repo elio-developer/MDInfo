@@ -8,37 +8,78 @@
 
 import Foundation
 
-class Day {
+public class Day {
     private let df = DateFormatter()
     private var dayOfTheWeek: Int
     
-    var name: String {
-        return name(locale: Locale.current)
-    }
-    var shortName: String {
-        return shortName(locale: Locale.current)
-    }
-    var initial: String {
-        return initial(locale: Locale.current)
+    /// Obtain the name of the day for the **current** locale.
+    public var name: String {
+        return name(Locale.current)
     }
     
-    init(dayOfTheWeek: Int) {
+    /// Obtain the short name of the day for the **current** locale.
+    public var shortName: String {
+        return shortName(Locale.current)
+    }
+    
+    /// Obtain the initial of the day for the **current** locale.
+    public var initial: String {
+        return initial(Locale.current)
+    }
+    
+    internal init(dayOfTheWeek: Int) {
         self.dayOfTheWeek = dayOfTheWeek
     }
     
-    func name(locale: Locale) -> String {
+    /**
+        Obtain the name of the day for the **specified** locale.
+        
+        ### Usage example ###
+        ````
+        let locale = Locale(identifier: "es")
+        let name = Days.sunday.name(locale)
+        print(name)
+        ````
+     
+        - parameter locale: The locale for which you want the name of the day
+    */
+    public func name(_ locale: Locale) -> String {
         df.locale = locale
         let name = df.weekdaySymbols[dayOfTheWeek]
         return name
     }
     
-    func shortName(locale: Locale) -> String {
+    /**
+     Obtain the short name of the day for the **specified** locale.
+     
+     ### Usage example ###
+     ````
+     let locale = Locale(identifier: "es")
+     let name = Days.sunday.shortName(locale)
+     print(name)
+     ````
+     
+     - parameter locale: The locale for which you want the name of the day
+     */
+    public func shortName(_ locale: Locale) -> String {
         df.locale = locale
-        let name = df.shortStandaloneWeekdaySymbols[dayOfTheWeek]
+        let name = df.shortWeekdaySymbols[dayOfTheWeek]
         return name
     }
     
-    func initial(locale: Locale) -> String {
+    /**
+     Obtain the initial of the day for the **specified** locale.
+     
+     ### Usage example ###
+     ````
+     let locale = Locale(identifier: "es")
+     let name = Days.sunday.initial(locale)
+     print(name)
+     ````
+     
+     - parameter locale: The locale for which you want the name of the day
+     */
+    public func initial(_ locale: Locale) -> String {
         df.locale = locale
         let name = df.veryShortWeekdaySymbols[dayOfTheWeek]
         return name
