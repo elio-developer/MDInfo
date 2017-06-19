@@ -4,8 +4,8 @@ target 'MDInfo_Example' do
   pod 'MDInfo', :path => '../'
 
   target 'MDInfo_Tests' do
-    inherit! :search_paths
-
+      # inherit! :search_paths
+      pod 'MDInfo', :path => '../'
     
   end
 end

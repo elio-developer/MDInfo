@@ -10,91 +10,93 @@ import UIKit
 import MDInfo
 
 class ViewController: UIViewController {
+    
+    let locale = Locale(identifier: "es")
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Sunday
         print(Days.sunday.initial)
-        print(Days.sunday.initial(Locale.current))
+        print(Days.sunday.initial(locale))
         
         print(Days.sunday.name)
-        print(Days.sunday.name(Locale.current))
+        print(Days.sunday.name(locale))
         
         print(Days.sunday.shortName)
-        print(Days.sunday.shortName(Locale.current))
+        print(Days.sunday.shortName(locale))
         
         print("\n")
         
         // Monday
         print(Days.monday.initial)
-        print(Days.monday.initial(Locale.current))
+        print(Days.monday.initial(locale))
         
         print(Days.monday.name)
-        print(Days.monday.name(Locale.current))
+        print(Days.monday.name(locale))
         
         print(Days.monday.shortName)
-        print(Days.monday.shortName(Locale.current))
+        print(Days.monday.shortName(locale))
         
         print("\n")
         
         // Tuesday
         print(Days.tuesday.initial)
-        print(Days.tuesday.initial(Locale.current))
+        print(Days.tuesday.initial(locale))
         
         print(Days.tuesday.name)
-        print(Days.tuesday.name(Locale.current))
+        print(Days.tuesday.name(locale))
         
         print(Days.tuesday.shortName)
-        print(Days.tuesday.shortName(Locale.current))
+        print(Days.tuesday.shortName(locale))
         
         print("\n")
         
         // Wednesday
         print(Days.wednesday.initial)
-        print(Days.wednesday.initial(Locale.current))
+        print(Days.wednesday.initial(locale))
         
         print(Days.wednesday.name)
-        print(Days.wednesday.name(Locale.current))
+        print(Days.wednesday.name(locale))
         
         print(Days.wednesday.shortName)
-        print(Days.wednesday.shortName(Locale.current))
+        print(Days.wednesday.shortName(locale))
         
         print("\n")
         
         // thursday
         print(Days.thursday.initial)
-        print(Days.thursday.initial(Locale.current))
+        print(Days.thursday.initial(locale))
         
         print(Days.thursday.name)
-        print(Days.thursday.name(Locale.current))
+        print(Days.thursday.name(locale))
         
         print(Days.thursday.shortName)
-        print(Days.thursday.shortName(Locale.current))
+        print(Days.thursday.shortName(locale))
         
         print("\n")
         
         // friday
         print(Days.friday.initial)
-        print(Days.friday.initial(Locale.current))
+        print(Days.friday.initial(locale))
         
         print(Days.friday.name)
-        print(Days.friday.name(Locale.current))
+        print(Days.friday.name(locale))
         
         print(Days.friday.shortName)
-        print(Days.friday.shortName(Locale.current))
+        print(Days.friday.shortName(locale))
         
         print("\n")
         
         // saturday
         print(Days.saturday.initial)
-        print(Days.saturday.initial(Locale.current))
+        print(Days.saturday.initial(locale))
         
         print(Days.saturday.name)
-        print(Days.saturday.name(Locale.current))
+        print(Days.saturday.name(locale))
         
         print(Days.saturday.shortName)
-        print(Days.saturday.shortName(Locale.current))
+        print(Days.saturday.shortName(locale))
         
         print("\n")
         
@@ -104,145 +106,145 @@ class ViewController: UIViewController {
         
         // january
         print(Months.january.initial)
-        print(Months.january.initial(Locale.current))
+        print(Months.january.initial(locale))
         
         print(Months.january.name)
-        print(Months.january.name(Locale.current))
+        print(Months.january.name(locale))
         
         print(Months.january.shortName)
-        print(Months.january.shortName(Locale.current))
+        print(Months.january.shortName(locale))
         
         print("\n")
         
         // february
         print(Months.february.initial)
-        print(Months.february.initial(Locale.current))
+        print(Months.february.initial(locale))
         
         print(Months.february.name)
-        print(Months.february.name(Locale.current))
+        print(Months.february.name(locale))
         
         print(Months.february.shortName)
-        print(Months.february.shortName(Locale.current))
+        print(Months.february.shortName(locale))
         
         print("\n")
         
         // march
         print(Months.march.initial)
-        print(Months.march.initial(Locale.current))
+        print(Months.march.initial(locale))
         
         print(Months.march.name)
-        print(Months.march.name(Locale.current))
+        print(Months.march.name(locale))
         
         print(Months.march.shortName)
-        print(Months.march.shortName(Locale.current))
+        print(Months.march.shortName(locale))
         
         print("\n")
         
         // april
         print(Months.april.initial)
-        print(Months.april.initial(Locale.current))
+        print(Months.april.initial(locale))
         
         print(Months.april.name)
-        print(Months.april.name(Locale.current))
+        print(Months.april.name(locale))
         
         print(Months.april.shortName)
-        print(Months.april.shortName(Locale.current))
+        print(Months.april.shortName(locale))
         
         print("\n")
         
         // may
         print(Months.may.initial)
-        print(Months.may.initial(Locale.current))
+        print(Months.may.initial(locale))
         
         print(Months.may.name)
-        print(Months.may.name(Locale.current))
+        print(Months.may.name(locale))
         
         print(Months.may.shortName)
-        print(Months.may.shortName(Locale.current))
+        print(Months.may.shortName(locale))
         
         print("\n")
         
         // june
         print(Months.june.initial)
-        print(Months.june.initial(Locale.current))
+        print(Months.june.initial(locale))
         
         print(Months.june.name)
-        print(Months.june.name(Locale.current))
+        print(Months.june.name(locale))
         
         print(Months.june.shortName)
-        print(Months.june.shortName(Locale.current))
+        print(Months.june.shortName(locale))
         
         print("\n")
         
         // july
         print(Months.july.initial)
-        print(Months.july.initial(Locale.current))
+        print(Months.july.initial(locale))
         
         print(Months.july.name)
-        print(Months.july.name(Locale.current))
+        print(Months.july.name(locale))
         
         print(Months.july.shortName)
-        print(Months.july.shortName(Locale.current))
+        print(Months.july.shortName(locale))
         
         print("\n")
         
         // august
         print(Months.august.initial)
-        print(Months.august.initial(Locale.current))
+        print(Months.august.initial(locale))
         
         print(Months.august.name)
-        print(Months.august.name(Locale.current))
+        print(Months.august.name(locale))
         
         print(Months.august.shortName)
-        print(Months.august.shortName(Locale.current))
+        print(Months.august.shortName(locale))
         
         print("\n")
         
         // september
         print(Months.september.initial)
-        print(Months.september.initial(Locale.current))
+        print(Months.september.initial(locale))
         
         print(Months.september.name)
-        print(Months.september.name(Locale.current))
+        print(Months.september.name(locale))
         
         print(Months.september.shortName)
-        print(Months.september.shortName(Locale.current))
+        print(Months.september.shortName(locale))
         
         print("\n")
         
         // october
         print(Months.october.initial)
-        print(Months.october.initial(Locale.current))
+        print(Months.october.initial(locale))
         
         print(Months.october.name)
-        print(Months.october.name(Locale.current))
+        print(Months.october.name(locale))
         
         print(Months.october.shortName)
-        print(Months.october.shortName(Locale.current))
+        print(Months.october.shortName(locale))
         
         print("\n")
         
         // november
         print(Months.november.initial)
-        print(Months.november.initial(Locale.current))
+        print(Months.november.initial(locale))
         
         print(Months.november.name)
-        print(Months.november.name(Locale.current))
+        print(Months.november.name(locale))
         
         print(Months.november.shortName)
-        print(Months.november.shortName(Locale.current))
+        print(Months.november.shortName(locale))
         
         print("\n")
         
         // december
         print(Months.december.initial)
-        print(Months.december.initial(Locale.current))
+        print(Months.december.initial(locale))
         
         print(Months.december.name)
-        print(Months.december.name(Locale.current))
+        print(Months.december.name(locale))
         
         print(Months.december.shortName)
-        print(Months.december.shortName(Locale.current))
+        print(Months.december.shortName(locale))
         
         print("\n")
     }
